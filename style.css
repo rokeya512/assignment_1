@@ -59,10 +59,24 @@ p {
 
 .donate-today {
     width: 10%;
-    height: 40%;
-    box-shadow: 10px 10px 20px gray;
+    height: 30%;
+    box-shadow: 2px 2px 4px gray;
     font-size: 25px;
     font-weight: 700;
+    margin: 7px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+#tk {
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+#form {
+    border: none;
+    font-size: 15px;
+    text-align: center;
 }
 
 .donate-plan {
@@ -72,7 +86,6 @@ p {
     padding-left: 10px;
     margin: 40px 10px;
     text-align: left;
-
 }
 
 #food {
@@ -107,10 +120,17 @@ p {
 .box {
     background-color: peachpuff;
     padding-top: 50px;
+    height: 30%;
 }
 
 #subscribe {
     background-color: orangered;
+
+}
+
+.update {
+    text-align: center;
+
 }
 
 footer {
